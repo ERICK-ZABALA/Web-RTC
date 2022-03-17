@@ -10,7 +10,7 @@ WebRTC offers web application developers the ability to write rich, realtime mul
 
 The overall architecture looks something like this:
 
-![image]()
+![image](https://github.com/ERICK-ZABALA/Web-RTC/blob/master/webrtc.png?raw=true)
 
 ## PREREQUISITES
 
