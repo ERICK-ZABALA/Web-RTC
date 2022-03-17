@@ -1,0 +1,16 @@
+{
+  "name": "signaling_server",
+  "version": "1.0.0",
+  "description": "Signaling Server WebRTC",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Erick Zabala",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "ws": "^8.5.0"
+  }
+}
