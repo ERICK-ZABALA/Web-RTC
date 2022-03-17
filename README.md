@@ -23,12 +23,12 @@ The overall architecture looks something like this:
 ## CONFIGURATION
 
 * Create your virtual environment in Node 14.17 and add the file runtime.txt, install all dependencies indicate in requirements.txt as well add Procfile file.
-![image]()
-
 
 ## RUNNING
 
 * You can run the project first of all in your local machine and then you can use the heroku cloud to work with public network.
+
+![image](https://github.com/ERICK-ZABALA/Web-RTC/blob/master/test.png?raw=true)
 
 ## SEARCHING WITH THIS CODE
 
