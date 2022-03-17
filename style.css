@@ -1,0 +1,20 @@
+body {
+
+    background-color: black;
+    display: inline-block;
+    font-size: medium;
+    color: rgb(0, 143, 92);
+    
+}
+
+
+div {
+
+    padding: 20px;
+}
+
+video {
+
+    background-color: grey;
+    padding: 20px;
+}

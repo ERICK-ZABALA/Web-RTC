@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../style.css">
+    <title>Sender Client</title>
+</head>
+<body>
+
+    <div>
+        <h1>USER A</h1><br><br>
+        <input type="text" placeholder="Enter username..." id="username-input"><br> <!-- se ingresa el username -->
+        <button onclick="sendUsername()">Send</button>  <!-- se crean los botones para enviar el username al server-->
+        <button onclick="startCall()">Start Call</button> <!-- se llama genera la llamada de la funcion startCall() -->
+    </div>
+    
+    <div id="video-call-div">
+        <video muted src="" id="local-video" width="260" height="220" autoplay></video> <!-- se crea el espacio video local -->
+        <video src="" id="remote-video" width="260" height="220" autoplay></video> <!-- se crea el espacio video remoto -->
+        <textarea id="dataChannelSend" value={text} placeholder="Enter some text, then press Press Send Message !."></textarea>
+        <textarea id="dataChannelReceive"></textarea>
+        <button id="dataChannel.onopen">Send Message</button>
+       
+        <div class="call-action-div">
+            <button onclick="muteVideo()"> Mute Video</button> <!-- se activan el boton de Mute Video -->
+            <button onclick="muteAudio()"> Mute Audio</button> <!-- se activan el boton de Mute Audio -->
+        </div>
+    </div>
+
+    <script src="./sender.js"> </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+localStream muestra esta data al ser invocado:
+
+navigator.getUserMedia({  //Pide al usuario permiso para usar un dispositivo multimedia como una cámara o micrófono. 
+                              //Si el usuario concede este permiso, el successCallback es invocado en la aplicación 
+                              //llamada con un objeto LocalMediaStream como argumento.
+
+
+                video: {
+                    frameRate: 24, 
+                    width: { min: 480, ideal: 720, max: 1200},
+                    aspectRatio: 1.33333
+                },
+
+                audio: true
+    }, (stream) => {
+        localStream = stream
+        document.getElementById("local-video").srcObject =  localStream // el video stream se posiciona en la etiqueta local-video
+        console.log (localStream)
+    }, (error) => {
+        console.log(error) // se muestra el error en consola
+
+    })
+
+
+localStream: -----> SALIDA
+MediaStream {id: 'PekIcTlQd1EdVxtKw9MzlMf23WGa86i1Es0k', active: true, onaddtrack: null, onremovetrack: null, onactive: null, …}
+active: true
+id: "PekIcTlQd1EdVxtKw9MzlMf23WGa86i1Es0k"
+onactive: null
+onaddtrack: null
+oninactive: null
+onremovetrack: null
+[[Prototype]]: MediaStream
+active: (...)
+addTrack: ƒ addTrack()
+clone: ƒ clone()
+getAudioTracks: ƒ getAudioTracks()
+getTrackById: ƒ getTrackById()
+getTracks: ƒ getTracks()
+getVideoTracks: ƒ getVideoTracks()
+id: (...)
+onactive: (...)
+onaddtrack: (...)
+oninactive: (...)
+onremovetrack: (...)
+removeTrack: ƒ removeTrack()
+constructor: ƒ MediaStream()
+Symbol(Symbol.toStringTag): "MediaStream"
+get active: ƒ active()
+get id: ƒ id()
+get onactive: ƒ onactive()
+set onactive: ƒ onactive()
+get onaddtrack: ƒ onaddtrack()
+set onaddtrack: ƒ onaddtrack()
+get oninactive: ƒ oninactive()
+set oninactive: ƒ oninactive()
+get onremovetrack: ƒ onremovetrack()
+set onremovetrack: ƒ onremovetrack()
+[[Prototype]]: EventTarget
