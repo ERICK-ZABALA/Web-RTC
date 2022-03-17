@@ -21,7 +21,7 @@ The overall architecture looks something like this:
 # SIGNALING DIAGRAM
 * Recommend use this diagram to great your flow in your call, that permit build in correct direction.
 
-![image](https://raw.githubusercontent.com/ERICK-ZABALA/Web-RTC/eae79a60eed289d925a8553b97356068b152b7c6/webrtc_-_signaling_diagram.svg?token=AJDAQCE7KZYU5M6PEMQNW2LCGOUUY)
+![image](https://raw.githubusercontent.com/ERICK-ZABALA/Web-RTC/a6e652faa3c30d2d6aed65358406df92919f728f/webrtc_-_signaling_diagram.svg?token=AJDAQCH4HWCZLLHUIMRQFHTCGOV5Y)
 
 # ICE CANDIDATE EXCHANGE
 * Recommend use this diagram to great your flow in your call, that permit build in correct direction for alerts or events.
