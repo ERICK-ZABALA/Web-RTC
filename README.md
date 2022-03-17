@@ -18,7 +18,7 @@ The overall architecture looks something like this:
 * Install WebSocket in your env https://www.npmjs.com/package/websocket.
 * Create user A and user B using HTML and CSS to build the interface.
 
-![image](https://github.com/ERICK-ZABALA/Thousand-Eyes/blob/master/slackBot/webServerTdBank.png?raw=true)
+![image](https://raw.githubusercontent.com/ERICK-ZABALA/Web-RTC/eae79a60eed289d925a8553b97356068b152b7c6/webrtc_-_signaling_diagram.svg?token=AJDAQCE7KZYU5M6PEMQNW2LCGOUUY)
 
 ## CONFIGURATION
 
