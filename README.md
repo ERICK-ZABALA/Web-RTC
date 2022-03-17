@@ -18,7 +18,15 @@ The overall architecture looks something like this:
 * Install WebSocket in your env https://www.npmjs.com/package/websocket.
 * Create user A and user B using HTML and CSS to build the interface.
 
+# SIGNALING DIAGRAM
+* Recommend use this diagram to great your flow in your call, that permit build in correct direction.
+
 ![image](https://raw.githubusercontent.com/ERICK-ZABALA/Web-RTC/eae79a60eed289d925a8553b97356068b152b7c6/webrtc_-_signaling_diagram.svg?token=AJDAQCE7KZYU5M6PEMQNW2LCGOUUY)
+
+# ICE CANDIDATE EXCHANGE
+* Recommend use this diagram to great your flow in your call, that permit build in correct direction for alerts or events.
+
+![image](https://raw.githubusercontent.com/ERICK-ZABALA/Web-RTC/87c1638aa2bd7fc2ba4e9e0a2696b2234f33c903/webrtc_-_ice_candidate_exchange.svg?token=AJDAQCDSRE5LX34NV5RXWATCGOVKA)
 
 ## CONFIGURATION
 
@@ -29,6 +37,7 @@ The overall architecture looks something like this:
 * You can run the project first of all in your local machine and then you can use the heroku cloud to work with public network.
 
 ![image](https://github.com/ERICK-ZABALA/Web-RTC/blob/master/test.png?raw=true)
+
 
 ## SEARCHING WITH THIS CODE
 
